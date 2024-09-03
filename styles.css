@@ -35,3 +35,42 @@ header ul {
     color: #E5E7EB;
     list-style: none;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.captioned-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image-container {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.image-frame {
+    border-style: solid;
+    width: 130px;
+    height: 130px;
+    border-width: 2px;
+    border-radius: 10%;
+    border-color: #3882F6;
+}
